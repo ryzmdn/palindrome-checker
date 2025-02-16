@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Palindrome Checker</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <main>
+      <h1>Palindrome Checker</h1>
+
+      <section>
+        <label for="input" class="block text-sm/6 font-medium text-gray-900">Enter your text</label>
+        <div>
+          <input type="text" name="input" id="input" oninput="checkPalindrome()" spellcheck="false" autocomplete="off">
+        </div>
+        <p id="input-text">Write the text in the input, automatically the result will appear below.</p>
+      </section>
+
+      <strong id="result"></strong>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
